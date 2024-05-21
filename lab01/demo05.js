@@ -1,6 +1,6 @@
 // read file data.json
 
-let data = require('./data.json');
+let data = require('./data/data.json');
 
 console.log(data);
 
