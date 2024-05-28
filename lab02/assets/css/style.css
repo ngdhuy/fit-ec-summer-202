@@ -1,0 +1,115 @@
+* {
+    margin: 0; 
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+section { height: 100vh; }
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    row-gap: 1rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1, h2, h3 { text-align: center; }
+
+h1 {
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+h3 {
+    font-size: 1.5rem;
+    font-style: italic;
+    font-weight: 400;
+}
+
+h4 {
+    font-size: 2rem;
+    color: #ffffff;
+}
+
+h5 {
+    font-size: 1rem;
+    color: #f2b912;
+    text-transform: uppercase;
+}
+
+.btn {
+    padding: 1.25rem 2rem;
+    border-radius: 5px;
+}
+
+.btn-green {
+    background-color: #17667f;
+    color: #ffffff
+}
+
+.btn-green:hover {
+    background-color: #ffffff;
+    color:#17667f;
+}
+
+.btn-black {
+    background-color: #343a40;
+    color: #ffffff;
+}
+
+.btn-black:hover {
+    background-color: #ffffff;
+    color: #343a40;
+    border: 1px solid #343a40;
+    font-weight: bold;
+}
+
+.btn-white {
+    background-color: #ffffff;
+    color: #343a40;
+}
+
+.btn-white:hover {
+    background-color: #343a40;
+    color: #ffffff;
+}  
+
+#home {
+    background: url(../img/bg-masthead.jpg);
+    background-position: center center;
+    background-size: cover;
+}   
+
+#about, #portfolio, #map {
+    background-color: #ffffff;
+}
+
+#services, #action, #contact {
+    background-color: #1d809f;
+}
+
+#callout {
+    background: url(../img/bg-callout.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#map, #contact {
+    height: 50vh;
+}
